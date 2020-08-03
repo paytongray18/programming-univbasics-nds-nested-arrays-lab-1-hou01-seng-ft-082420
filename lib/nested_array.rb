@@ -21,7 +21,7 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  produce_storage_room = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+  produce_storage_room = [["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"],["Strawberries","Potatoes","Grapes","Avocadoes","Asparagus"]]
   produce_storage_room.sort
 end
 
